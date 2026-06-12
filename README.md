@@ -24,7 +24,6 @@ Or use the Makefile shortcuts: `make up` / `make start` / `make down`.
 | Service  | URL |
 |---|---|
 | Frontend | http://localhost:8080 |
-| API | http://localhost:3000/api |
 | Swagger | http://localhost:3000/api/docs |
 | Health | http://localhost:3000/api/health |
 
