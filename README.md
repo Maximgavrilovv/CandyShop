@@ -34,15 +34,6 @@ Or use the Makefile shortcuts: `make up` / `make start` / `make down`.
 | alice@example.com | password123 |
 | bob@example.com | password123 |
 
-## Business rule: checkout auth
-
-By default, users must be logged in to check out. To allow guest checkout, set in `.env` or `docker-compose.yml`:
-
-```
-CHECKOUT_REQUIRES_AUTH=false
-```
-
-Browsing the catalog is always public — no login required.
 
 ## Running the tests
 
