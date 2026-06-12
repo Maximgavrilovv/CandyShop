@@ -7,13 +7,19 @@ Overall, you can't buy something that is unavailable or doesn't have any items i
 
 ### Fields kept / dropped
 
-| Field | Decision | Reason |
+
 | name, flavour, description | ✅ kept | Display |
+
 | stock | ✅ kept | Core to purchase logic |
+
 | available | ✅ kept | Core to purchase logic |
+
 | weight | ✅ kept | Useful product detail, could be used for sorting, calculating price per 1 kg, etc. |
+
 | sugar_content | ❌ dropped | No feature uses it but could be later added for additional sorting/filtering |
+
 | last_update | ❌ dropped | Source API timestamp; we manage our own `updated_at` |
+
 
 ## One thing the AI got wrong
 
